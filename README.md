@@ -31,8 +31,11 @@
 - Gradient Bar Chart Color
 - Customer Details
 - Pivot Table
+## image
+<img width="968" height="548" alt="Screenshot 2026-02-12 210355" src="https://github.com/user-attachments/assets/327f92a8-8942-4889-9df1-c1789f9e5d18" />
 
 ### Dashboard
 - [Download the file](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pbix) and open in Power BI Desktop for interactive viewing.
 - [See a screenshot](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pdf) of the Dashboard in pdf.
 "# Sale-Dashboard-with-SQL-connection-" 
+
