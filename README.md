@@ -1,41 +1,180 @@
-# SalesAnalysis_SQL_PowerBI
+📊 Sale Dashboard with SQL Connection
+SalesAnalysis_SQL_PowerBI
+🚀 Project Overview
 
-### Setup
-- This project requires SQL Server (SQL Express), Power BI Desktop
-- We will work with backup Data Warehouse (DW) data and Lightweight (LT) data. Obtain data and restore following instructions from [here.](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)
-- Compare DW and LT data to understand the difference between structured and unstructured data. We will primarily be working with Data Warehouse data.
-- Update Data Warehouse data using [sql script.](https://github.com/techtalkcorner/SampleDemoFiles/blob/master/Database/AdventureWorks/Update_AdventureWorksDW_Data.sql)
+This project presents an end-to-end Sales Analytics solution built using SQL Server (AdventureWorks Data Warehouse) and Power BI Desktop.
 
-### Business Request & User Stories
-- Read the sample business request, demand overview & filled-out user stories to understand the problem we are trying to solve with Data Analysis and what we consider as a solution.
+The objective is to analyze sales performance, monitor KPIs, and generate actionable business insights for management decision-making.
 
-### Clean the Data using T-SQL
-- Understand the difference between FACT tables & Dimension tables.
-- Identify which tables in the data are of interest with the help of the Business Request form.
-- Choose which columns are of interest to export by preparing and transforming these columns in SQL using concepts such as: renaming columns, combining columns, commenting in SQL script, formatting of SQL statements, WHERE clause, ORDER BY, LEFT JOIN, CASE() function and ISNULL() function. 
+It demonstrates the complete analytics workflow:
 
-### Create Dashboard in Power BI
-- Load Data
-- Organize & Prepare Tables
-- Connect Tables for Data Model
-- Import Fact_Budget
-- Calculation Measures
-- Dashboard Design
-- Import Custom Visual
-- Measure Table
-- Pie Chart
-- Line Chart
-- Bar Charts
-- Map Graph
-- Top 10 Graphs
-- Gradient Bar Chart Color
-- Customer Details
-- Pivot Table
-## image
-<img width="968" height="548" alt="Screenshot 2026-02-12 210355" src="https://github.com/user-attachments/assets/327f92a8-8942-4889-9df1-c1789f9e5d18" />
+SQL Database → Data Cleaning (T-SQL) → Data Modeling → DAX Measures → Interactive Power BI Dashboard
 
-### Dashboard
-- [Download the file](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pbix) and open in Power BI Desktop for interactive viewing.
-- [See a screenshot](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pdf) of the Dashboard in pdf.
-"# Sale-Dashboard-with-SQL-connection-" 
+🛠 Tech Stack
 
+SQL Server (Express Edition)
+
+SQL Server Management Studio (SSMS)
+
+T-SQL
+
+AdventureWorks Data Warehouse
+
+Power BI Desktop
+
+DAX
+
+Star Schema Data Modeling
+
+🗂 Data Source & Setup
+Requirements
+
+SQL Server (SQL Express)
+
+Power BI Desktop
+
+Database Installation
+
+Download and restore AdventureWorks databases:
+
+🔗 https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
+
+Update Data Warehouse using SQL script:
+
+🔗 https://github.com/techtalkcorner/SampleDemoFiles/blob/master/Database/AdventureWorks/Update_AdventureWorksDW_Data.sql
+
+We work mainly with:
+
+AdventureWorksDW (Data Warehouse)
+
+Compare with AdventureWorksLT (Lightweight transactional DB)
+
+This helps understand:
+
+Structured vs Transactional data
+
+Fact vs Dimension tables
+
+Data warehouse architecture
+
+📌 Business Objective
+
+The dashboard answers key business questions:
+
+What is the total sales and profit performance?
+
+Which products generate the highest revenue?
+
+Which regions perform best?
+
+How do sales trends change over time?
+
+How does actual sales compare to budget?
+
+🧹 Data Cleaning using T-SQL
+
+Performed data transformation using:
+
+LEFT JOIN
+
+WHERE clause
+
+ORDER BY
+
+CASE() function
+
+ISNULL() function
+
+Column renaming
+
+Derived columns
+
+SQL formatting & commenting
+
+Tables Used
+
+FactInternetSales
+
+DimDate
+
+DimCustomer
+
+DimProduct
+
+DimSalesTerritory
+
+FactBudget
+
+Implemented Fact & Dimension relationship structure (Star Schema).
+
+📊 Data Modeling in Power BI
+
+Connected Fact & Dimension tables
+
+Created relationships
+
+Imported Budget table
+
+Built dedicated Measure Table
+
+Created DAX Measures:
+
+Total Sales
+
+Total Profit
+
+Profit Margin
+
+Sales vs Budget
+
+Quantity Sold
+
+Top 10 Products
+
+📈 Dashboard Features
+
+✔ KPI Cards (Sales, Profit, Quantity)
+✔ Line Chart (Sales Trend Over Time)
+✔ Pie Chart (Category Contribution)
+✔ Bar Charts (Top & Bottom Products)
+✔ Map Visualization (Regional Sales)
+✔ Budget vs Actual Comparison
+✔ Gradient Conditional Formatting
+✔ Customer Drill-down View
+✔ Pivot Table Analysis
+
+🖼 Dashboard Preview
+
+(Add your screenshots here — already included above)
+
+📥 Dashboard Files
+
+🔹 Download Power BI File (.pbix):
+https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pbix
+
+🔹 View Dashboard PDF:
+https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pdf
+
+🎯 Skills Demonstrated
+
+SQL Query Writing
+
+Data Cleaning & Transformation
+
+Data Warehousing Concepts
+
+Star Schema Modeling
+
+DAX Calculations
+
+Business Intelligence Reporting
+
+Dashboard Design
+
+Analytical Thinking
+
+💡 Project Value
+
+This project simulates a real-world business scenario where management requires clear and actionable insights from structured sales data.
+
+It transforms raw warehouse data into measurable KPIs and interactive business reports
