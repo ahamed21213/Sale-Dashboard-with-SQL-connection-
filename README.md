@@ -96,6 +96,16 @@ The dashboard answers key business questions:
 These insights help management optimize pricing, product strategy, and regional focus.
 
 ---
+## 💼 Business Impact
+
+This dashboard enables management to:
+
+- Identify high-performing products and categories
+- Detect underperforming regions
+- Optimize pricing and margin strategy
+- Monitor budget variance in real-time
+- Improve data-driven decision making
+
 
 ## 🧹 Data Cleaning Using T-SQL
 
