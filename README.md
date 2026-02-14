@@ -87,11 +87,11 @@ The dashboard answers key business questions:
 
 ## 🔎 Key Business Insights
 
-- 20% of products generate the majority of total revenue (Pareto trend)  
-- Q4 consistently shows peak sales performance  
-- Some regions generate high revenue but lower profit margins  
-- Certain product categories underperform compared to budget targets  
-- Profit margin varies significantly across categories  
+- Top 15 products contribute 62% of total revenue.
+- North America accounts for 48% of total sales but has 5% lower profit margin than Europe.
+- Q4 sales are 18% higher than yearly average.
+- 3 product categories are consistently below budget targets.
+- Profit margin declined 4% compared to previous year. 
 
 These insights help management optimize pricing, product strategy, and regional focus.
 
